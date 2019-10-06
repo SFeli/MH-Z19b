@@ -1,7 +1,7 @@
 # MH-Z19b
 ESP32 with CO2-Sensor (MH-Z19B) and publish on mydevice Cayenne
 
-![Setup](/Cayenne_Reporting.jpg)
+![Cayenne](/Cayenne_Reporting.jpg?raw=true "Graph")
 
 Hardware:
 1) Lolin D32 (with ESP32 4MB and WIFI)      https://wiki.wemos.cc/products:d32:d32

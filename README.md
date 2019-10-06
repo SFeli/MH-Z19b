@@ -8,11 +8,13 @@ Hardware:
 2) MH-Z19B - CO2 - Sensor                   https://www.winsen-sensor.com/sensors/co2-sensor/mh-z19b.html
 
 Wireing:
-Z19b        Lolin D32
-GND   <->   GND
-VI V   <->   BAT
-RX    <->   SDA Pin 21
-TX    <->   SCL Pin 22
+
+| MH-Z19b |   |    Lolin D32  |
+| --- | -- | -----------|
+| GND  | <-> | GND |
+| VI V |  <->| BAT |
+| RX   | <-> | SDA Pin 21 |
+| TX   | <-> | SCL Pin 22 |
 
 Registration at https://accounts.mydevices.com 
 Add new Device -> select Bring your own Thing

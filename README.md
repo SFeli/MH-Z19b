@@ -1,2 +1,19 @@
 # MH-Z19b
 ESP32 with CO2-Sensor (MH-Z19B) and publish on mydevice Cayenne
+
+![Setup](/Cayenne_Reporting.jpg)
+
+Hardware:
+1) Lolin D32 (with ESP32 4MB and WIFI)      https://wiki.wemos.cc/products:d32:d32
+2) MH-Z19B - CO2 - Sensor                   https://www.winsen-sensor.com/sensors/co2-sensor/mh-z19b.html
+
+Wireing:
+Z19b        Lolin D32
+GND   <->   GND
+VI V   <->   BAT
+RX    <->   SDA Pin 21
+TX    <->   SCL Pin 22
+
+Registration at https://accounts.mydevices.com 
+Add new Device -> select Bring your own Thing
+Copy the credentials MQTT - Name / Password and Device-ID into the code

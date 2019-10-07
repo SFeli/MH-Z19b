@@ -22,4 +22,4 @@ ESP32 with CO2-Sensor (MH-Z19B) and publish data on mydevice Cayenne
 - Copy the credentials MQTT - Name / Password and Device-ID from Webpage into the code
 - flash and run the code -> Cayonne will create channals automatically
 - create a Slider on channel 4 to manipulate the transfer frequency (new Widget - Slider Controller)
-  - Data Analog = Acturator / Unit = Anlalog / Channel = 4 / Min = 5 / Max = 60
+  - Data Analog = Acturator / Unit = Anlalog / Channel = 4 / Min = 5 / Max = 60 
